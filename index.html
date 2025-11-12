@@ -7,24 +7,28 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <!-- Left Image Panel -->
-    <div class="image-panel">
+ <div class="container">
+  <!-- LEFT SIDE: IMAGE + LOGO -->
+  <div class="left-panel">
+    <div class="overlay">
       <div class="logo-container">
-        <img src="Odin.png" alt="Odin Logo" class="logo">
+        <img src="odin.png" alt="Odin Logo" class="logo">
         <h1>ODIN Recipes</h1>
       </div>
+      <p class="tagline">Cook. Create. Connect.</p>
     </div>
+  </div>
 
     <!-- Right Form Panel -->
-    <div class="form-panel">
-      <div class="intro">
-        <h2>Get a Daily Dose of Deliciousness!</h2>
-        <p>
-          This is not a real subscription. You know you need something like this in your life to help you
-          discover new recipes and culinary adventures. <br />
-          Sign up <strong>now</strong> to get started.
-        </p>
+    <div class="right-panel">
+    <header class="form-header">
+      <h2>Join the Community</h2>
+      <p>Get personalized recipes and cooking tips every week!</p>
+    </header>
+    <form class="signup-form">
+      <div class="form-group">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="John" required>
       </div>
 
       <form class="signup-form">
